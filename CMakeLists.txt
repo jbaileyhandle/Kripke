@@ -17,8 +17,6 @@ set(KRIPKE_VERSION "1.2.5-dev")
 #
 # Initialize the BLT build system
 #
-set(CMAKE_HIP_ARCHITECTURES "--offload-arch=gfx906,gfx908" CACHE STRING "")
-
 set(ENABLE_GTEST Off CACHE BOOL "")
 set(ENABLE_TESTS Off CACHE BOOL "")
 set(ENABLE_TBB Off CACHE BOOL "")
